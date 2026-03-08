@@ -5,6 +5,10 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""
+Academic Integrity: I got help on this module from:
+         PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
+"""  # TODO: If you got help from anyone on this module, list their names here.
 
 import tkinter
 from tkinter import ttk
@@ -29,7 +33,8 @@ def main():
     # -------------------------------------------------------------------------
     # TODO: 5. After reading and understanding the m3e module,
     #   ** make your Button respond to a button-press **
-    #   ** by printing   "Hello"  on the Console.     **
+    #   ** by printing  "Hello"  followed by  "Goodbye"  on the Console. **
+    #   Use two  print  statements, which will force a lambda expression.
     # -------------------------------------------------------------------------
 
     # -------------------------------------------------------------------------
@@ -55,14 +60,13 @@ def main():
     #    If the user fails to enter an integer,
     #    that is a "user error" -- do NOT deal with that.
     # -------------------------------------------------------------------------
-    ####################################################################
     # HINT:
     #   You will need to obtain the INTEGER from the STRING
     #   that the GET method returns.
     #   Use the   int   function to do so, as in this example:
     #      s = entry_box.get()
     #      n = int(s)
-    ####################################################################
+    # -------------------------------------------------------------------------
 
     # -------------------------------------------------------------------------
     # TODO: 8. After reading and understanding the m5e module,
