@@ -10,7 +10,7 @@ Example showing for tkinter and ttk:
 
   -- How the callback function can use the Entry's GET and SET methods
        to get/set the Entry's information.
-       
+
 This is the SIMPLEST (and for you, BEST) way to use an Entry box.
 
 See a subsequent module for a more complicated alternative
@@ -44,15 +44,17 @@ def main():
 def print_contents(entry_box):
     """
     Prints onto the Console the contents of the given ttk.Entry.
-    
+
     In this example, it is used as the function that is "CALLED BACK"
     when an event (namely, the pressing of a certain Button) occurs.
-    
+    Such functions are called callbacks.
+
     Type hints:
       :type entry_box: ttk.Entry
     """
     contents_of_entry_box = entry_box.get()
     print(contents_of_entry_box)
+
 
 ###############################################################################
 #

@@ -31,18 +31,20 @@ def main():
 def do_stuff():
     """
     Print onto the Console a random 10-letter string.
-    
+
     In this example, it is used as the function that is "CALLED BACK"
     when an event (namely, the pressing of a certain Button) occurs.
+    Such functions are called callbacks.
     """
     letters = "abcdefghijklmnopqrstuvwxyz"
 
     random_word = ""
     for _ in range(10):
-        letter = letters[random.randrange(26)]
+        letter = letters[random.randrange(len(letters))]
         random_word = random_word + letter
 
     print(random_word)
+
 
 ###############################################################################
 #
@@ -86,7 +88,7 @@ def do_stuff():
 #      and can contain multiple statements, but a LAMBDA function
 #      is ANONYMOUS -- it has no name -- and (in Python) can contain
 #      only a single statement as its body.  So the expression:
-#              lambda: foo()
+#              lambda: foo(...)
 #      defines an anonymous (no-name) function that, when executed,
 #      simply calls the function named  foo  that is defined elsewhere.
 #

@@ -21,7 +21,7 @@ def main():
     # with some of the grid-places empty.  Here are the WIDGETS:
     # -------------------------------------------------------------------------
 
-    label = ttk.Label(frame, text="Example of gridding\nrows and columns")
+    label = ttk.Label(frame, text="Example of gridding\nrows and columns", padding=20)
     entry_box = ttk.Entry(frame)
 
     button1 = ttk.Button(frame, text="Do you like\nyour button HERE?")
@@ -33,14 +33,18 @@ def main():
     button3 = ttk.Button(frame, text="or maybe HERE?")
     button3["command"] = lambda: answer_callback(entry_box)
 
+    button4 = ttk.Button(frame, text="or even HERE?")
+    button4["command"] = lambda: answer_callback(entry_box)
+
     # -------------------------------------------------------------------------
     # Here is the use of GRID with rows and columns:
     # -------------------------------------------------------------------------
-    label.grid(row=0, column=0)
-    entry_box.grid(row=0, column=1)
-    button1.grid(row=0, column=2)
-    button2.grid(row=1, column=0)
-    button3.grid(row=1, column=1, columnspan=2)
+    label.grid(row=0, column=1)
+    entry_box.grid(row=0, column=2)
+    button1.grid(row=0, column=3)
+    button2.grid(row=1, column=1, sticky="w")
+    button3.grid(row=1, column=2, columnspan=2)
+    button4.grid(row=0, column=0, rowspan=3, sticky="ne")
 
     root.mainloop()
 
