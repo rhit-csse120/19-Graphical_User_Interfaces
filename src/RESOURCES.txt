@@ -1,0 +1,16 @@
+See:
+        https://tkdocs.com/
+for the best online help on Tkinter/ttk.
+Of particular note within that site is:
+
+  -- The terrific tutorial at:
+        https://tkdocs.com/tutorial/index.html
+
+  -- The Widget Roundup for quick looks at the Widgets at:
+        https://tkdocs.com/widgets/index.html
+
+  -- The (dated but still excellent) reference guide at:
+        https://tkdocs.com/shipman/index.html
+
+  -- Another reference guide at:
+        https://tkdocs.com/pyref/index.html
