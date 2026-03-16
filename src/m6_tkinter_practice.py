@@ -5,6 +5,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Derek Whitley, their colleagues,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+
 """
 Academic Integrity: I got help on this module from:
          PUT_HERE_THE_NAMES_OF_PEOPLE_WHO_HELPED_YOU_ON_THIS_MODULE_(IF_ANY).
@@ -15,7 +16,7 @@ from tkinter import ttk
 
 
 def main():
-    """ Constructs a GUI with stuff on it. """
+    """Constructs a GUI with stuff on it."""
     # -------------------------------------------------------------------------
     # TODO: 2. After reading and understanding the m1e module,
     #   ** make a window that shows up. **
